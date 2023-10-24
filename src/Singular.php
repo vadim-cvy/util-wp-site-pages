@@ -14,5 +14,5 @@ abstract class Singular extends SitePage
     return is_singular( $this->get_post_type() );
   }
 
-  abstract public function get_post_type() : string;
+  abstract protected function get_post_type() : string;
 }
